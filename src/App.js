@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+
+// import AppTv from './api_comps/appTv';
 import './App.css';
+import AppHooks from './hooks_comps/appHooks';
+// import AppWeather from './weather_comps/appWeather';
+import AppHw from './hw_comps/appHw';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return (
+  <div className="App">
+
+   <AppHw />
+   <AppHooks />
+   {/* <AppTv /> */}
+   {/* <AppWeather /> */}
+  </div>
+ );
 }
 
 export default App;
