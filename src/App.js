@@ -1,8 +1,8 @@
 
-// import AppTv from './api_comps/appTv';
+import AppTv from './api_comps/appTv';
 import './App.css';
 import AppHooks from './hooks_comps/appHooks';
-// import AppWeather from './weather_comps/appWeather';
+import AppWeather from './weather_comps/appWeather';
 import AppHw from './hw_comps/appHw';
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
   <div className="App">
 
    <AppHw />
-   <AppHooks />
+   {/* <AppHooks /> */}
    {/* <AppTv /> */}
-   {/* <AppWeather /> */}
+   <AppWeather />
   </div>
  );
 }

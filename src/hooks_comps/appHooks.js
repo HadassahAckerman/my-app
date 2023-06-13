@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./counter"
 import Toggle from "./toggle";
 import AppDate from "./appDate";
+import SelectComp from "./selectComp";
 
 export default function AppHooks(){
     return(
@@ -9,6 +10,7 @@ export default function AppHooks(){
             <Counter/>
             <Toggle/>
             <AppDate/>
+            <SelectComp/>
         </React.Fragment>
     )
 }
